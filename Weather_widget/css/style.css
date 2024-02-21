@@ -1,0 +1,76 @@
+body {
+  /* height: 300px;
+  width: 100%; */
+  background: linear-gradient(
+    270deg,
+    rgb(0, 41, 68) 0%,
+    rgba(146, 195, 244, 1) 98%,
+    rgba(137, 205, 250, 0.958) 50%
+  );
+  animation: gradient 10s infinite linear;
+  background-size: 400%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 80% 0%;
+  }
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "YS Text", Helvetica Neue, Arial;
+}
+
+.left-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.rigth-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+  font-size: large;
+  font-size: 25px;
+  /* border: solid 1px #0c85f5; */
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  padding: 2%;
+  margin: 10px;
+  background-color: rgb(129, 192, 231);
+  color: lightcyan;
+  line-height: 20px;
+  font-weight: 200;
+  width: auto;
+  background: -webkit-linear-gradient(90deg, #0c85f5, #7dc5e2 50%, #6ab0d8);
+  background: linear-gradient(20deg, #0c85f5, #7dc5e2 50%, #6ab0d8);
+  overflow: hidden;
+  opacity: 0.9;
+  background-image: url("../img/sky01.jpg");
+}
