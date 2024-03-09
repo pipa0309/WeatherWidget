@@ -10,26 +10,26 @@
   <body>
     <div class="root">
       <div class="widget">
+        <div class="loader" data-container-id="loader">Loading...</div>
+        <div class="error-container" data-container-id="error-container"></div>
         <div class="left-info">
           <div class="item">
-            <p id="sity-label"></p>
+            <p id="sity-label" data-container-id="city"></p>
           </div>
         </div>
 
         <div class="right-info">
           <div class="item">
-            <p id="temperature"></p>
+            <p id="temperature" data-container-id="temperature"></p>
           </div>
-
-          <div class="item">
-            <img id="icon-weather" src="" alt="iconWeather" />
-          </div>
-          <div class="item">
-            <p id="description"></p>
+          
+          
+          <div data-container-id="recomendations">
+            
           </div>
         </div>
       </div>
     </div>
-    <script src="js/index.js"></script>
+    <script src="js/index_ref.js"></script>
   </body>
 </html>
